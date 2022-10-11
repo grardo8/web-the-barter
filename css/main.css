@@ -1,0 +1,113 @@
+.navbar {
+    background-color: #ff5a00 !important;
+    font-size: small;
+    height: 40px;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+}
+
+.nav-link {
+    color: #ffffff;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Banner principal */
+
+
+.banner-principal {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+/* Menu Imagenes */
+
+.menu-imagenes {
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30x;
+
+}
+
+.menu-imagenes p {
+
+    display: flex;
+    justify-content: center;
+    color: #2a2a2a;
+    font-weight: bold;
+
+}
+
+.menu-imagenes-categoria {
+
+    display: relative;
+    align-items: center;
+
+}
+
+/* H1 Y H2 DESTACADO */
+
+h2 {
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #0e0e0e;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+h1 {
+
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #0e0e0e;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+
+/* CATEGORIAS DESTACADAS */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+.container ul {
+
+    list-style-type: none;
+}
+
+.container ul li {
+    font-size: medium;
+    
+}
+
+.btn btn-outline-danger{
+    font-size: medium;
+}
