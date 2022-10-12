@@ -9,12 +9,7 @@
 
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 
 /* Banner principal */
 
@@ -210,8 +205,22 @@ h1 {
     padding-bottom: 10px;
     margin: 10px 10px 10px 10px;
     list-style-type: none;
+    animation-name: entrada-inferior;
+    animation-duration: 2s;
 }
 
+
+@keyframes roducto-caja-categoria {
+
+0% {
+    transform: translateY(100px);
+}
+
+100% {
+    transform: translateY(0px);
+}
+
+}
 .categoria-prod  {
     font-size: 10px;
     font-style: oblique;
@@ -235,4 +244,31 @@ h1 {
     background-color: #353535;
     color: #FFFFFF;
     align-items: center;
+}
+
+@media screen and (max-width: 768px ) {
+
+    .subasta-destacados {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu-imagenes {
+
+        display: none;
+    }
+    h2 {
+
+        font-size: 15px;
+    
+    }
+    
+    h1 {
+    
+        font-size: 15px;
+    
+    }
+    
+    
+
 }
